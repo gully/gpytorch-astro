@@ -1,0 +1,49 @@
+name: gpytorch_MKL
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - numpy
+  - pyyaml
+  - mkl
+  - mkl-include
+  - setuptools
+  - cmake
+  - cffi
+  - typing
+  - astropy
+  - astroquery
+  - bokeh
+  - uncertainties
+  - pip
+  - pytorch
+  - torchvision
+  - cython
+  - scipy
+  - jupyter
+  - ipython
+  - matplotlib
+  - pandas
+  - pytest
+  - scikit-learn
+  - six
+  - future
+  - nbsphinx
+  - ipykernel
+  - black
+  - twine
+  - sphinx_rtd_theme
+  - m2r
+  - flake8
+  - flake8-print
+  #- lightkurve
+  # note-- I installed the developer version of lightkurve
+  # https://docs.lightkurve.org/about/install.html#installing-the-development-version
+  - pip:
+    - gpytorch
+    - pyro-ppl
+    - pykeops
+    - sphinx==1.7.9 #for building PyTorch docs
+    - -e git+git://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+    - sphinxcontrib.katex
