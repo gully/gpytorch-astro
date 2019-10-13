@@ -32,3 +32,5 @@ and then
 ```bash
 conda env update -f environment_MKL.yml
 ```
+
+ps, I'm not actually sure if the MKL support comes out of the box, you used to have to install from source.
