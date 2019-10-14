@@ -1,4 +1,4 @@
-name: gpytorch_MKL
+name: gpytorch_dev
 channels:
   - defaults
   - pytorch
