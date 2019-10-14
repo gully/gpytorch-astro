@@ -6,8 +6,6 @@ channels:
 dependencies:
   - numpy
   - pyyaml
-  - mkl
-  - mkl-include
   - setuptools
   - cmake
   - cffi
@@ -39,9 +37,7 @@ dependencies:
   - m2r
   - flake8
   - flake8-print
-  #- lightkurve
-  # note-- I installed the developer version of lightkurve
-  # https://docs.lightkurve.org/about/install.html#installing-the-development-version
+  - lightkurve
   - pip:
     - pyro-ppl
     - pykeops
